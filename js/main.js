@@ -6,24 +6,31 @@
 // lista individualmente con un ciclo while.
 
 
+//creiamo l'array
 const expenseList = [ 
-    "Acqua", 
+    " Acqua", 
     " Pane",
     " Pasta",
     " Latte",
     " Coca-cola",
     " Affettati"
     ]
-
+//controlliamo che faccia il consol log dell'array
     console.log(expenseList);
-
+    //colleghiamo la variabile spesa con l'html lista-spesa
     const spesa = document.querySelector(".lista-spesa");
-
+    //dichiariamo la variabile i ci servirà per i ciclo while
     let i = 0;
-
+    //ciclo while i minore della lunghezza dell'array
     while (i < expenseList.length){
+
+        //console log degli elementi dell'array
         console.log(expenseList[i]);
+
+        //incremento con ++
          i++
+
+         //stampo con inner nell'html gli elemtni dell'array
         spesa.innerHTML = expenseList
 
     }
