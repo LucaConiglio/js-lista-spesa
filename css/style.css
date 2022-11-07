@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.lista-spesa{
+    color: rgb(255, 47, 0);
+    text-align: center;
+}
+h1{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://media-assets.lacucinaitaliana.it/photos/627bc344a1b9159f6c0e5dc0/16:9/w_2560%2Cc_limit/supermercato.jpg);
+    background-position: bottom;
+    
+}
